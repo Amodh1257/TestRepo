@@ -30,6 +30,6 @@ try:
   if int(input()) == 1:
     print("Correct!")
   else:
-    print("Wrong number")
+    print("das da rong numba")
 except:
-  print("Invalid value")
+  print("das not even a numba...")
