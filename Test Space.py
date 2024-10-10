@@ -1,6 +1,9 @@
 from time import sleep
 from rich.traceback import install; install()
-print("a")
+print("Hello World")
+print("Mike B was here")
+print("Hello class")
+
 
 def blam(name: str = "?") -> str:
     """
@@ -32,4 +35,5 @@ try:
   else:
     print("das da rong numba")
 except:
-  print("das not even a numba...")
+  print("Invalid value")
+  #Noah has been here
