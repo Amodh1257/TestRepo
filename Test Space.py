@@ -27,6 +27,7 @@ def blam(name: str = "?") -> str:
 print("Hello World")
 print(blam("Python"))
 
+print(blam.__doc__)
 
 
 try:
