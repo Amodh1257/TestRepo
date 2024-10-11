@@ -1,6 +1,9 @@
 from time import sleep
 from rich.traceback import install; install()
-print("a")
+print("Hello World")
+print("Mike B was here")
+print("Hello class")
+
 
 def blam(name: str = "?") -> str:
     """
@@ -30,6 +33,7 @@ try:
   if int(input()) == 1:
     print("Correct!")
   else:
-    print("Wrong number")
+    print("das da rong numba")
 except:
   print("Invalid value")
+  #Noah has been here
