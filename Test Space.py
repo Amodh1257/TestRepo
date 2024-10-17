@@ -3,8 +3,6 @@ from rich.traceback import install; install()
 print("Hello World")
 print("Mike B was here")
 print("Hello class")
-print("Andrew")
-print("does replit actually work?")
 
 
 def blam(name: str = "?") -> str:
@@ -29,17 +27,13 @@ def blam(name: str = "?") -> str:
 print("Hello World")
 print(blam("Python"))
 
-print(blam.__doc__)
-
 
 try:
   if int(input()) == 1:
     print("Correct!")
   else:
-    print("das da rong numba")
+    print("Wrong number")
 except:
   print("Invalid value")
-  #Noah has been here
+#Noah has been here
 
-
-#Somachi: Test Comment
